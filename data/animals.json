@@ -1,5 +1,5 @@
 {
-  "animals": [
+  "animalsArray": [
     {
       "id": "0",
       "name": "Spindle",
@@ -101,41 +101,13 @@
       ]
     },
     {
-      "name": "Larry",
-      "species": "lemur",
+      "name": "Selene",
+      "species": "Squirrel",
       "diet": "omnivore",
       "personalityTraits": [
-        "hungry"
+        "goofy"
       ],
       "id": "10"
-    },
-    {
-      "name": "Harry",
-      "species": "Pig",
-      "diet": "omnivore",
-      "personalityTraits": [
-        "hungry"
-      ],
-      "id": "11"
-    },
-    {
-      "name": "Steve",
-      "species": "Bear",
-      "diet": "Carnivore",
-      "personalityTraits": [
-        "hungry"
-      ],
-      "id": "12"
-    },
-    {
-      "name": "Merlin",
-      "species": "Sugar Glider",
-      "diet": "herbivore",
-      "personalityTraits": [
-        "zany",
-        "loving"
-      ],
-      "id": "13"
     }
   ]
 }
