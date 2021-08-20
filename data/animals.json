@@ -126,6 +126,16 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "Merlin",
+      "species": "Sugar Glider",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany",
+        "loving"
+      ],
+      "id": "13"
     }
   ]
 }
