@@ -25,7 +25,24 @@ const handleAnimalFormSubmit = event => {
     personalityTraits.push(selectedTraits[i].value);
   }
   const animalObject = { name, species, diet, personalityTraits };
-
+  fetch('/api/animals',{
+    method: 'POST',
+    headers: {
+      Accept: 'application.json',
+      'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(animalObject)})
+  .then(response => {
+    if(response.ok) {
+      return response.json();
+    }else{
+      throw new Error('Error: '+response.statusText);
+    }
+    }).then(postResponse => {
+      console.log(postResponse);
+      alert('Animal added successfully');
+      window.location = '/';
+    });
 };
 
 $animalForm.addEventListener('submit', handleAnimalFormSubmit);
